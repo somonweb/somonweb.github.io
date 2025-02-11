@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(33, 31, 31);
+}
+
+header {
+    border-bottom: 2px solid #fff;
+    gap: 310px;
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header ul {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+header a:hover {
+    color: #f46f1f;
+    border-bottom: 2px solid #f46f1f;
+    transition: all 0.2s ease-out, all 0.4s ease-in-out;
+}
+
+main .photo {
+    background: url('./images/vs.jpg');
+    background-size: cover;
+    width: 1510px;
+    height: 884px;
+}
+
+.photo h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 95px;
+}
+
+.sasuke img {
+    position: absolute;
+    top: 1010px;
+    width: 600px;
+    left: 65px;
+}
+
+.itachi img {
+    position: absolute;
+    top: 1010px;
+    right: 90px;
+    width: 350px;
+}
+
+.video1 {
+    padding: 120px 310px;
+}
+
+.video1 video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 840px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.video1 h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video2 {
+    background: url('./images/itachi.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 850px;
+    padding: 400px 310px 0px 310px;
+}
+
+.video2 video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 840px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.video2 h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video3 video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 840px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.video3 h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video3 {
+    padding:  20px 310px 0px 310px;
+}
+
+.video3 video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 840px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.video4 {
+    background: url('./images/f4.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 850px;
+    padding: 350px 310px 0px 310px;
+}
+
+.video4 video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 840px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.video4 h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video5 {
+    padding:  20px 310px 80px 310px;
+}
+
+.video5 h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video5 video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 840px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.akatsukisasuke img {
+    position: absolute;
+    width: 150px;
+    left: 40px;
+    top: 4850px;
+}
+
+.akatsukiitachi img {
+    position: absolute;
+    width: 200px;
+    right: 40px;
+    top: 4870px;
+}
+
+footer {
+    background: #191717;
+    border-bottom: 2px solid #fff;
+    gap: 310px;
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer ul {
+    padding: 30px 0px;
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+footer a:hover {
+    color: #f46f1f;
+    border-bottom: 2px solid #f46f1f;
+    transition: all 0.2s ease-out, all 0.4s ease-in-out;
+}
+
+footer .icon {
+    display: flex;
+    gap: 25px;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon .tg img {
+    margin-top: 7px;
+    width: 55px;
+    height: 45px;
+}
+
+.logotip p {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}

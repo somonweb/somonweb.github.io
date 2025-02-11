@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(33, 31, 31);
+}
+
+header {
+    border-bottom: 2px solid #fff;
+    gap: 310px;
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+header a:hover {
+    color: #f46f1f;
+    border-bottom: 2px solid #f46f1f;
+    transition: all 0.2s ease-out, all 0.4s ease-in-out;
+}
+
+#naruto {
+    gap: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 80px 80px 50px;
+}
+
+.sasuke {
+    background: #481859;
+    width: 350px;
+}
+
+.sasuke h2 {
+    margin: 10px;
+    color: #fff;
+}
+
+.sasuke button {
+    font-size: 20px;
+    width: 350px;
+    padding: 10px 15px;
+}
+
+.sasuke img {
+    width: 350px;
+}
+
+.pain {
+    background: #e2bf05;
+}
+
+.pain img {
+    width: 350px;
+}
+
+.pain h2 {
+    margin: 10px;
+    color: #fff;
+}
+
+.pain button {
+    font-size: 20px;
+    width: 350px;
+    padding: 10px 15px;
+}
+
+.gaara {
+    background: #0aac80;
+}
+
+.gaara img {
+    width: 350px;
+}
+
+.gaara h2 {
+    color: #fff;
+    margin: 10px;
+}
+
+.gaara button {
+    font-size: 20px;
+    width: 350px;
+    padding: 10px 15px;
+}
+
+#demonslayer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.tengen {
+    background: #ee9a77;
+}
+
+.tengen h2 {
+    color: #fff;
+    margin: 10px;
+}
+
+
+.tengen button {
+    font-size: 20px;
+    width: 740px;
+    padding: 10px 15px;
+}
+
+#berserk {
+    padding: 65px 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.berserk100 img, .berserkrozin img, .berserkgatsa img, .berserkrev  img {
+    width: 350px;
+    height: 350px;
+}
+
+.berserkrozin {
+    background: #767676;
+}
+
+.berserk100 {
+    background: #606060;
+}
+
+.berserkgatsa {
+    background: #262626;
+}
+
+
+.berserkrev {
+    background: #464646;
+}
+
+.berserk100 h2, .berserkrozin h2, .berserkgatsa h2, .berserkrev  h2 {
+    color: #fff; 
+    margin: 10px;
+}
+
+.berserk100 button, .berserkrozin button, .berserkgatsa button, .berserkrev  button {
+    font-size: 20px;
+    width: 350px;
+    padding: 10px 15px;
+}
+
+#ichigo {
+    gap: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 80px 80px 50px;
+}
+
+.aizen button, .byakuya button, .ulquiorra button {
+    font-size: 20px;
+    width: 400px;
+    padding: 10px 15px;
+}
+
+.aizen h2, .byakuya h2, .ulquiorra h2 {
+    color: #fff; 
+    margin: 10px;
+} 
+
+.aizen {
+    background: #9d7053;
+}
+
+.byakuya {
+    background: #d78311;
+}
+
+.ulquiorra {
+    background: #60837f;
+}
+
+footer {
+    background: #191717;
+    border-bottom: 2px solid #fff;
+    gap: 310px;
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer ul {
+    padding: 30px 0px;
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+footer a:hover {
+    color: #f46f1f;
+    border-bottom: 2px solid #f46f1f;
+    transition: all 0.2s ease-out, all 0.4s ease-in-out;
+}
+
+footer .icon {
+    display: flex;
+    gap: 25px;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon .tg img {
+    margin-top: 7px;
+    width: 55px;
+    height: 45px;
+}
+
+.logotip p {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
